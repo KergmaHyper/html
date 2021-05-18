@@ -1,22 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Документ HTML5</title>
+    <base href="content/" >
 
+
+
+
+  <style>
+ul#menu li{
+    display:inline;
+}
+
+<style>
+            a:link    {color:blue; text-decoration:none}
+            a:visited {color:pink; text-decoration:none}
+            a:hover   {color:red; text-decoration:underline}
+            a:active  {color:yellow; text-decoration:underline}
+        </style>
+
+  </style>  
 </head>
 
 
 <body>
-    <div>Содержание документа HTML5</div>
-<div style="color:red;">Кнопка</div>
-<input type="button" value="Нажать">
-<h1>Заголовок первого уровня</h1>
-        <h2>Заголовок второго уровня</h2>
-        <h3>Заголовок третьего уровня</h3>
-        <h4>Заголовок четвертого уровня</h4>
-        <h5>Заголовок пятого уровня</h5>
-        <h6>Заголовок шестого уровня</h6>
+    
+<ul id="menu">
+   <li> <Главная </li>
+   <li> Вид     </li>
+   <li> Блог    </li>
+   <li> <a href="#carsn">Cars Numbers</a></li>
+   <li> <a href="#carsu">Cars Unnumbers</a></li>
+   <li> О сайте </li>
+
+</ul> 
+
+
+        <div>
+<p>ordinal text</p>
+<p><i>i cursive ordinal text i tag   </i>
+    <b> border text</b>
+<del> delete text </del>
+<em> em cursiv text </em>
+<s> S text </s>
+<small> SMALL text </small>
+<strong> STRONG text </strong>
+<sub> SUB text </sub>
+<sup> SUP text </sup>
+<u> U text </u>
+<ins>  ins text </ins>
+
+<mark> mark text </mark>
+
+</p>
+<p>X<sub>i</sub> = Y<sup><small>2</small></sup> + Z<sup><small>2</small></sup></p>
+        </div>
+        
+        <div>
+<img src="debian-ubuntu-centos-1.jpg" alt="Linux for human behinds" 
+style="float:none; margin-right:30px;"/>
+<h1>Lorem Ipsum</h1>
+            <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry....
+        </div>
+<p></p>
+<div>
+<h2 id="carsn"> Нумерованный список</h2>
+<details>
+    <summary>Машинки!</summary>
+<ol style="list-style-type:lower-roman; " start="4" >
+    <li>Volkswagen</li>
+    <li>Skoda</li>
+    <li>AUDI</li>
+    <li>Toyota</li>
+    <li>Chevrolet</li>
+</ol>
+</details>
+
+<h2 id="carsu">Ненумерованный список</h2>
+<details>
+    <summary>Машинки!</summary>
+<ul style="list-style-image: url(car-mini.jpg); margin-left: 50px;">
+    <li>Volkswagen</li>
+    <li>Skoda</li>
+    <li>AUDI</li>
+    <li>Toyota</li>
+    <li>Chevrolet</li>
+</ul>
+
+
+</details>
+</div>
+
+
+<h2>Элемент iframe</h2>
+        <iframe src="http://wikipedia.com" width="600" height="200">
+        </iframe>
 
 </body>
 </html>
