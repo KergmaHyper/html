@@ -3,17 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Документ HTML5</title>
-    <base href="content/" >
-
-
-
+   
+  <style>
+   ul#menu li{ display:inline;}
+  </style>
 
   <style>
-ul#menu li{
-    display:inline;}
- </style>
-
-<style>
             a:link    {color:blue; text-decoration:none}
             a:visited {color:pink; text-decoration:none}
             a:hover   {color:red; text-decoration:underline}
@@ -23,78 +18,19 @@ ul#menu li{
 
 
 <body>
+  
+    <H1>FORMS</H1>
+    <h2>post input</h2>
+    <form method="POST" action="http://46.250.122.224:8080/cgi-bin/luci">
+     <input name="username" value="root" type="text"/>
+     <input name="password" value="" type="password"/>
+     <input type="submit" value="login...">
     
-<ul id="menu">
-   <li> Главная </li>
-   <li> Вид     </li>
-   <li> Блог    </li>
-   <li> <a href="#carsn">Cars Numbers</a></li>
-   <li> <a href="#carsu">Cars Unnumbers</a></li>
-   <li> О сайте </li>
-
-</ul> 
+    
+    
+    </form>
 
 
-        <div>
-<p>ordinal text</p>
-<p><i>i cursive ordinal text i tag   </i>
-    <b> border text</b>
-<del> delete text </del>
-<em> em cursiv text </em>
-<s> S text </s>
-<small> SMALL text </small>
-<strong> STRONG text </strong>
-<sub> SUB text </sub>
-<sup> SUP text </sup>
-<u> U text </u>
-<ins>  ins text </ins>
-
-<mark> mark text </mark>
-
-</p>
-<p>X<sub>i</sub> = Y<sup><small>2</small></sup> + Z<sup><small>2</small></sup></p>
-        </div>
-        
-        <div>
-<img src="debian-ubuntu-centos-1.jpg" alt="Linux for human behinds" 
-style="float:none; margin-right:30px;"/>
-<h1>Lorem Ipsum</h1>
-            <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry....
-        </div>
-<p></p>
-<div>
-<h2 id="carsn"> Нумерованный список</h2>
-<details>
-    <summary>Машинки!</summary>
-<ol style="list-style-type:lower-roman; " start="4" >
-    <li>Volkswagen</li>
-    <li>Skoda</li>
-    <li>AUDI</li>
-    <li>Toyota</li>
-    <li>Chevrolet</li>
-</ol>
-</details>
-
-<h2 id="carsu">Ненумерованный список</h2>
-<details>
-    <summary>Машинки!</summary>
-<ul style="list-style-image: url(car-mini.jpg); margin-left: 50px;">
-    <li>Volkswagen</li>
-    <li>Skoda</li>
-    <li>AUDI</li>
-    <li>Toyota</li>
-    <li>Chevrolet</li>
-</ul>
-
-
-</details>
-</div>
-
-
-<h2>Элемент iframe</h2>
-        <iframe src="http://wikipedia.com" width="600" height="200">
-        </iframe>
 
 </body>
 </html>

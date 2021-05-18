@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+   <html>
+         <head>
+          <title> Forms in HTML5</title>
+          <meta charset="utf-8">
+       </head> 
+
+
+
+
+         <body>
+         
+            <form action="index.html" method="get" autocomplete="off" />
+            <p><label for="role" >Role:</label>
+              <input list="role" name="login" autofocus type="text" placeholder="choice role"/>
+            <p><label for="password">Password:</label>  
+              <input name="password" type="password" placeholder="enter password"/>
+            <p>  
+              <input type="submit" value="login">
+
+             </form>
+
+
+             <datalist id="role">
+              <option value="root" label="super user"/>
+              <option value="admin" label="DB admin"/>
+              <option value="user" label="other user"/>    
+            </datalist>
+
+
+
+
+            <form action="index.html" method="GET" autocomplete="off">
+             <p><label for="price">Input price:</label>
+                <input id="price" name="price" type="number" min="100" max="10000" step="10"
+                       list="pricelist" value="100"/>
+             <p><input type="submit"  value="send"/>
+
+
+                <datalist id="pricelist">
+                    <option value="100" label="min price"/>
+                    <option value="10000" label="max price"/>
+                </datalist>
+
+            </form>
+
+            <form>
+                <p>Choice our mounth summ offer:</p>
+                <p><label for="offer">offer:</label></p>
+                <p>5700<input type="range" name="offer" id="offer"
+                            min="5700" max="30000" step="500" value="7000"/>30000</p>
+                <input type="submit" value="sendoffer"/>
+
+            </form>
+
+        </body>
+
+    </html>
