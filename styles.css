@@ -1,0 +1,32 @@
+
+
+div{
+ background-color: #ccc;
+ color: #222;
+}
+h2{
+ color: violet;
+}
+.black{     color: #000; }
+.red{     color: #f00; }
+#footer{
+    height: 80px;
+    background-color: #ccc;
+}
+
+aside{
+    background-color: green;
+    float:right; 
+    width:300px; 
+    font-size: larger; 
+    color: #910;
+}
+
+
+.yell{
+    color:yellow; 
+    background-color: blue; 
+    width:140px; 
+    font-size: 40px;
+}
+
