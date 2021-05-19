@@ -11,16 +11,39 @@
          <body>
          
             <form  enctype="multipart/form-data" action="index.html" method="POST" autocomplete="off" />
-            
+            <fieldset>
+               <legend>Sending file</legend>
             <p><label for="file" />Choice a file:
             <p><input type="file" name="file" id="name"/>
             <p> <input type="submit" value="send file"/>
-
-
-
             </form>
+         </fieldset>
 
+         <fieldset>
+            <legend>Choicing cars</legend>
 
+            <p><form action="index.html" method="GET">
+               <label for="car" >Choice:</label>
+               <select id="car" name="car">
+                  <optgroup label="Volkswagen">
+                     <option value="VW Golf" label="Golf"/>
+                     <option value="VW Polo" label="Polo"/>
+                  </optgroup>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="AUDI">AUDI</option>
+               </select>
+              <p> <input type="submit" value="Send car"/>
+            </form>
+          </fieldset>
+
+          <fieldset>
+             <legend>Comments</legend>
+               <p><form action="index.html" method="GET">
+               <p><label for="ta" >Our comments:</label>
+               <p> <textarea name="ta" id="ta" placeholder="Enter our comments" cols="40" rows="5" maxlength="250"></textarea>
+               <p><input type="submit" value="send comments"/>
+            </form>
+         </fieldset>
 
 
         </body>
