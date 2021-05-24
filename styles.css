@@ -2,7 +2,7 @@ div{
     margin: 5px;
     border: 1px solid black;
     font-size: 20px;
-    height: 80px;
+    
 }
 #header{ 
     background-color: #ccc;
@@ -21,23 +21,53 @@ div{
 
 #main{
     background-color: #eee;
-    height: 80%;
+    
     margin-right: 160px;
     
-    overflow: auto;
 }
 #footer{ 
     background-color: #ccc;
+    
 }
 
 #menu{
-    background-color: #b8b;
+    
     width: 160px;
     float: left;
+    border: none;
 }
 
 #content{
     background-color: #888;
     height:  400px;
     margin-left: 170px;
+}
+
+#wparper {
+ background-color: #b8b;
+ border: none;    
+}
+
+ul.nav {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+ul.nav a{
+    display: block;
+    width: 7em;
+    padding: 7px;
+    background-color: #f4f4f4;
+    border-top: 1px dotted #888;
+    border-right: 1px dotted #888;
+    border-left: 5px solid #888;
+    color: #222;
+}
+ul.nav li:last-child a{
+    border-bottom: 1px dotted #888;
+}
+
+ul.nav li a:hover{
+    background-color: yellow;
+    color: blue;
 }
