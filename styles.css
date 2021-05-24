@@ -8,7 +8,7 @@ div{
     background-color: #ccc;
 }
 #sidebar_l{
-    background-color: #ddd;
+    background-color: #aaa;
     float: left;
     width: 150px;
 }
@@ -21,10 +21,23 @@ div{
 
 #main{
     background-color: #eee;
-    height: 200px;
+    height: 80%;
     margin-right: 160px;
-    margin-left: 160px;
+    
+    overflow: auto;
 }
 #footer{ 
     background-color: #ccc;
+}
+
+#menu{
+    background-color: #b8b;
+    width: 160px;
+    float: left;
+}
+
+#content{
+    background-color: #888;
+    height:  400px;
+    margin-left: 170px;
 }
