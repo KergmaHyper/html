@@ -71,3 +71,39 @@ ul.nav li a:hover{
     background-color: yellow;
     color: blue;
 }
+
+
+
+ul.nav2 {
+    list-style: none;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.nav2 li{float: left  ;}
+
+
+ul.nav2 a{
+    display: block;
+    width: 8em;
+    padding: 7px;
+    background-color: #f4f4f4;
+    border: 1px dotted #888;
+    text-align: center;
+    color: #222;
+}
+
+
+ul.nav2 li a:hover{
+    background-color: blue;
+    color:yellow;
+}
+
+#menu2{
+    border: none;
+    display: block;
+    height: 2em;
+    background-color: white;
+    
+}
