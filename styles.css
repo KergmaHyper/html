@@ -1,52 +1,5 @@
-            a:link    {color:blue; text-decoration:none}
-            a:visited {color:darkblue; text-decoration:none}
-            a:hover   {color:red; text-decoration:underline}
-            a:active  {color:yellow; text-decoration:underline}
-            input:hover {border:2px solid greenyellow;}
-            h2:hover{color: black;}
 div{
- background-color: #ccc;
- color: #222;
- font-family: Arial, Helvetica, sans-serif;
+    margin: 15px; /* внешний отступ */
+    padding: 11px; /* внутренний отступ */
+    border: 3px solid red; /* границы шириной в 3 пикселя сплошной красной линией */
 }
-div  p {
-    color:yellow;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-
-p:hover   {
-    color:orange; 
-    text-decoration:underline;
-    font-style: normal;
-}
-
-h2{
- color: violet;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-weight: 800;
-}
-
-#comments{
-    background-color: azure;
-}
-#comment{
-    background-color: bisque;
-}
-#ta{
-    color:green;
-    text-decoration: double;
-    background-color: coral;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40;
-}
-
-#footer{
-    height: 80px;
-    background-color: #ccc;
-    font-weight: 700;
-
-}
-
-
-
