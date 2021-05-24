@@ -1,11 +1,27 @@
-div{
-    margin: 5px;
-    border: 1px solid black;
-    font-size: 20px;
-    
+* {
+    box-sizing: border-box;
 }
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    font-family: Verdana, Arial, sans-serif;    
+    background-color: #f7f7f7;
+}
+
+#lang{
+    text-decoration: none;
+    text-align: right;
+}
+
 #header{ 
     background-color: #ccc;
+    text-align: center;
 }
 #sidebar_l{
     background-color: #aaa;
@@ -21,7 +37,6 @@ div{
 
 #main{
     background-color: #eee;
-    
     margin-right: 160px;
     
 }
@@ -30,12 +45,6 @@ div{
     
 }
 
-#menu{
-    
-    width: 160px;
-    float: left;
-    border: none;
-}
 
 #content{
     background-color: #888;
@@ -43,67 +52,30 @@ div{
     margin-left: 170px;
 }
 
-#wparper {
- background-color: #b8b;
- border: none;    
-}
-
-ul.nav {
+#nav li{
     list-style: none;
-    margin-left: 0px;
-    padding-left: 0px;
+    float: left;
 }
-ul.nav a{
+
+#nav a{
     display: block;
-    width: 7em;
-    padding: 7px;
-    background-color: #f4f4f4;
-    border-top: 1px dotted #888;
-    border-right: 1px dotted #888;
-    border-left: 5px solid #888;
-    color: #222;
-}
-ul.nav li:last-child a{
-    border-bottom: 1px dotted #888;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid black;
+    color: black;
 }
 
-ul.nav li a:hover{
-    background-color: yellow;
-    color: blue;
+#nav li:last-child a{
+    border: 0;
+}
+
+#nav a:hover{
+    color: yellow;
 }
 
 
-
-ul.nav2 {
-    list-style: none;
-    padding: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul.nav2 li{float: left  ;}
-
-
-ul.nav2 a{
-    display: block;
-    width: 8em;
-    padding: 7px;
-    background-color: #f4f4f4;
-    border: 1px dotted #888;
-    text-align: center;
-    color: #222;
-}
-
-
-ul.nav2 li a:hover{
-    background-color: blue;
-    color:yellow;
-}
-
-#menu2{
-    border: none;
-    display: block;
-    height: 2em;
-    background-color: white;
-    
+#nav:after {
+    content: " ";
+    display: table;
+    clear: both;
 }
