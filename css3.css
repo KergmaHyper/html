@@ -1,0 +1,34 @@
+body {
+    background-color: red;
+}
+/*Далее остальные стили*/
+@media (min-width:481px) and (max-width:768px){
+    body {
+        background-color: blue;
+    }
+    /*Далее остальные стили*/
+}
+
+@media (min-width:769px){
+    body {
+        background-color: yellow;
+    }
+    /*Далее остальные стили*/
+}
+
+
+.one{
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+.one:hover{
+    background-color: violet;
+    transition: 1s;
+   
+}
+
+
