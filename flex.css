@@ -1,0 +1,25 @@
+
+.flex-cont{
+	display: flex-inline;
+}
+.flex-cont-st{
+	display: flex;
+}
+
+.flex-it{
+	width:120px;
+	height:45px;
+	padding: 1.5em;
+	color:white;
+	text-align: center;
+	font-size: 2em;
+
+}
+.flex-it:hover{
+	font-weight: bold;
+	color: blue;
+}
+
+.col-red{background-color:red;}
+.col-yel{background-color:yellow;}
+.col-gre{background-color:green;}
