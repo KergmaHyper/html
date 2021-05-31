@@ -13,7 +13,7 @@
 	border:1px solid #ccc;
 	width: 30%;
 	height:8.25em;
-	flex-wrap: wrap-reverse;
+	flex-flow: row wrap;
 }	
 
 .flex-row{flex-direction: row;}
