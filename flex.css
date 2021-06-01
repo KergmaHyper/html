@@ -11,7 +11,7 @@
 .flex-cont{	
 	display: flex; 
 	border:1px solid #ccc;
-	width: 30%;
+	width: 75%;
 	height:8.25em;
 	flex-flow: row wrap;
 }	
@@ -25,6 +25,17 @@
 .flex-center{justify-content: center;}
 .flex-between{justify-content: space-between;}
 .flex-around{justify-content: space-around;}
+.flex-al-start{align-items: flex-start;}
+.flex-al-end{align-items: flex-end;}
+.flex-al-stretch{align-items: stretch;}
+.flex-al-center{align-items: center;}
+.flex-al-baseline{align-items: baseline;}
+.it-center{ align-self: center; }
+.it-start{ align-self: flex-start;}
+.it-end{align-self: flex-end;}
+.it-stretch{ align-self: stretch;}
+.it-baseline{ align-self: baseline;}
+
 
 .flex-it{
 	text-align:center;
