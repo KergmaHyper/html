@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {     padding: 0;
+                margin: 0;
+                font-family: verdana, arial, sans-serif;
+            }
+body {          display: flex;
+                padding: 1em;
+                flex-direction: column;
+                font-size: 0.7em;
+            }
+@media screen and (min-width: 600px) {    
+                 body {  flex-direction: row;  font-size: 1em; }
+                 .item:nth-child(2){order: -1;}     
+                
+            }
+
+
+
+.item {         background-color: #455a64;
+                color: #fff;
+                font-size: 1.1em;
+                padding: 1em;
+            }
+ 
+.item:nth-child(1) {  background-color: #607d8b;   }
+
+.item:first-child {  flex: 0 0 50%;}
