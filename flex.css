@@ -20,8 +20,11 @@
 .flex-row-rev{flex-direction:row-reverse;}
 .flex-col{flex-direction: column;}
 .flex-col-rev{flex-direction: column-reverse;}
-
-
+.flex-strart{justify-content: start;}
+.flex-end{justify-content: end;}
+.flex-center{justify-content: center;}
+.flex-between{justify-content: space-between;}
+.flex-around{justify-content: space-around;}
 
 .flex-it{
 	text-align:center;
